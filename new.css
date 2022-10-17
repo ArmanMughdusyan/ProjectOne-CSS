@@ -1,0 +1,784 @@
+html, body {
+    height: 100%;
+}
+html {
+    background: white;
+}
+body{
+    background: linear-gradient(167.44deg, #08244F 0%, #134CB5 47.38%, #0B42AB 100%);
+    border-radius: 40px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    top: 40px;
+    left: 40px;
+    width: 310px;
+    height: 40px;
+    margin-right: 0px;
+    padding: 0px;
+}
+.top-element1 {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    position: relative;
+    width: 150px;
+
+}
+.location-sign {
+    position: relative;
+    display: inline-block;
+    margin: 0px;
+    width: min-content;
+    height: min-content;
+}
+.location-name {
+    display: inline-block;
+    overflow: hidden;
+    color: white;
+    max-width: 80px;
+    text-align: center;
+}
+.location-name > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 530;
+    font-size: 18px;
+    line-height: 21px;
+}
+.location-change {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    width: min-content;
+    height: min-content;
+    margin-left: 15px;
+}
+.top-element2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    min-width: 37px;
+}
+.top-element2 > .img2 {
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+}
+
+
+
+
+
+
+.weather-today {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    top: 15px;
+
+}
+.weather-picture {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    width: 100%;
+}
+.weather-picture > img {
+    width: 286.67px ;
+    height: 230px ;
+}
+.temperature {
+    display: flex;
+    flex-direction:column;
+    align-content: space-between;
+    justify-content: center;
+    height:auto
+}
+.temp.-info1 {
+    width: 100%;
+    overflow: hidden;
+
+}
+.text1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: white;
+    font-size: 55px;
+    line-height: 50px;
+    text-align: center;
+    margin-left: 20px;
+}
+.text2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: white;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+.text3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: white;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+.percentage-data {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 10px;
+    position: absolute;
+    overflow: hidden;
+    height: 40px;
+    right: 45px;
+    left: 45px;
+    margin-top: 35px;
+    background-color: rgba(0, 16, 38, 0.3);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+.rain{
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    color: white;
+    width: 53.5px;
+    height: 100%;
+}
+.katil1 {
+    position: absolute;
+    height: 6.488234519958496px;
+    width: 5.258065700531006px;
+    left: 10px;
+    bottom: 12px;
+}
+.katil2 {
+    position: absolute;
+    height: 5.16508674621582px;
+    width: 3.995081901550293px;
+    left: 12px;
+    bottom: 22px;
+}
+.katil3 {
+    position: absolute;
+    height: 4.057248115539551px;
+    width: 3.3332977294921875px;
+    left: 14.5px;
+    bottom: 17.5px;
+}
+.katil4 {
+    position: absolute;
+    height: 5.164909362792969px;
+    width: 3.9950151443481445px;
+    left: 19px;
+    bottom: 22px;
+}
+.katil5 {
+    position: absolute;
+    height: 5.08745002746582px;
+    width: 3.98990535736084px;
+    left: 18px;
+    bottom: 11px;
+}
+.katil6 {
+    position: absolute;
+    height: 4.057438850402832px;
+    width: 3.3334054946899414px;
+    left: 21.5px;
+    bottom: 17.5px;
+}
+.katil7 {
+    position: absolute;
+    height: 4.05733585357666px;
+    width: 3.3332958221435547px;
+    bottom: 11.5px;
+    left: 23px;
+}
+.rain-text {
+    position: absolute;
+    overflow: hidden;
+    margin-top: 11.5px;
+    right: 0;
+}
+.rain-text > p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px
+}
+.gradus {
+    display: inline-block;
+    position: relative;
+    width: 55px;
+    height: 40px;
+}
+.gradus1 {
+    position: absolute;
+    height: 20px;
+    width: 6.061566352844238px;
+    top: 10px;
+    left: 10px;
+}
+.gradus2 {
+    position: absolute;
+    top: 18px;
+    left: 16px;
+}
+.gradus3 {
+    position: absolute;
+    top: 22px;
+    left: 18px;
+}
+.gradus4 {
+    position: absolute;
+    top: 19px;
+    left: 19px;
+}
+.gradus-text {
+    position: absolute;
+    overflow: hidden;
+    margin-top: 11.5px;
+    right: 0;
+}
+.gradus-text > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px
+}
+.wind {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    width: 83px;
+    height: 100%;
+}
+.wind1 {
+    position: absolute;
+    left: 10px;
+    top: 14px;
+}
+.wind2 {
+    position: absolute;
+    left: 10px;
+    top: 22px;
+}
+.wind3 {
+    position: absolute;
+    left: 17px;
+    top: 22px;
+}
+.wind4 {
+    position: absolute;
+    left: 15.5px;
+    top: 24px;
+}
+.wind5 {
+    position: absolute;
+    left: 22.5px;
+    top: 15.5px;
+}
+.wind-text {
+    position: absolute;
+    overflow: hidden;
+    margin-top: 11.5px;
+    right: 0;
+}
+.wind-text > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px
+}
+
+
+
+
+
+
+.today-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    overflow: hidden;
+    left: 45px;
+    right: 45px;
+    height: 200px;
+    background-color: rgba(0, 16, 38, 0.3);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    top: 450px;
+}
+.date {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 25px;
+    width: 280px;
+    top: 10px;
+}
+.today {
+    display: inline-block;
+    margin-left: 9px;
+}
+.today > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    color: white;
+}
+.day {
+    display: inline-block;
+    margin-right: 9px;
+}
+.day > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    color: white;
+}
+.weather-hours {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    width: 280px;
+    height: 160px;
+}
+.hours1, .hours2, .hours4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    height: 90%;
+    width: 60px;
+}
+.hours1 > .el2 {
+    position: relative;
+    width: 100%;
+    height: 23.5px;
+}
+.hours1 > .el1 > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-shadow: -2px 3px 1px rgba(0, 0, 0, 0.1);
+}
+.hours1 > .el2 > .cloud1 {
+    position: absolute;
+    left: 24px;
+    bottom: 0;
+    width: 22px;
+    height: 21px;
+    background: #FFFFFF;
+    box-shadow: inset -18px 11px 30px #FFFFFF, inset 8px -15px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 105.5px 105.5px 105.5px 0px;
+    z-index: 3;
+}
+.hours1 > .el2 > .cloud2 {
+    position: absolute;
+    left: 14px;
+    bottom: 0px;
+    width: 16px;
+    height: 15px;
+    background: #FFFFFF;
+    box-shadow: inset -18px 11px 30px #FFFFFF, inset 8px -15px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 105.5px 105.5px 105.5px 0px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    z-index: 2;
+}
+.hours1 > .el2 > .sun {
+    position: absolute;
+    left: 16px;
+    top: 0;
+    z-index: 1;
+}
+.hours1 > .el3 > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-shadow: -2px 3px 1px rgba(0, 0, 0, 0.1);
+}
+.hours2 > .el2 {
+    position: relative;
+    width: 100%;
+    height: 23.5px;
+}
+.hours2 > .el1 > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-shadow: -2px 3px 1px rgba(0, 0, 0, 0.1);
+}
+.hours2 > .el2 > .cloud1 {
+    position: absolute;
+    left: 24px;
+    bottom: 0;
+    width: 22px;
+    height: 21px;
+    background: #FFFFFF;
+    box-shadow: inset -18px 11px 30px #FFFFFF, inset 8px -15px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 105.5px 105.5px 105.5px 0px;
+    z-index: 3;
+}
+.hours2 > .el2 > .cloud2 {
+    position: absolute;
+    left: 14px;
+    bottom: 0px;
+    width: 16px;
+    height: 15px;
+    background: #FFFFFF;
+    box-shadow: inset -18px 11px 30px #FFFFFF, inset 8px -15px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 105.5px 105.5px 105.5px 0px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    z-index: 2;
+}
+.hours2 > .el2 > .sun {
+    position: absolute;
+    left: 16px;
+    top: 0;
+    z-index: 1;
+}
+.hours2 > .el3 > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-shadow: -2px 3px 1px rgba(0, 0, 0, 0.1);
+}
+.hours2 > .el1 > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-shadow: -2px 3px 1px rgba(0, 0, 0, 0.1);
+}
+.hours3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    box-sizing: border-box;
+    height: 90%;
+    width: 60px;
+    border-radius: 20%;
+}
+.hours3 > .el2 {
+    position: relative;
+    overflow: hidden;
+    width: 35px;
+    height: 23.5px;
+}
+.hours3 > .el1 > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-shadow: -2px 3px 1px rgba(0, 0, 0, 0.1);
+}
+.hours3 > .el2 > .cloud1 {
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+    width: 22px;
+    height: 21px;
+    background: #FFFFFF;
+    box-shadow: inset -18px 11px 30px #FFFFFF, inset 8px -15px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 105.5px 105.5px 105.5px 0px;
+    z-index: 2;
+}
+.hours3 > .el2 > .cloud2 {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 16px;
+    height: 15px;
+    background: #FFFFFF;
+    box-shadow: inset -18px 11px 30px #FFFFFF, inset 8px -15px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 105.5px 105.5px 105.5px 0px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    z-index: 1;
+}
+.hours3 > .el3 > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-shadow: -2px 3px 1px rgba(0, 0, 0, 0.1);
+}
+.hours3 > .el1 > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-shadow: -2px 3px 1px rgba(0, 0, 0, 0.1);
+} 
+.hours4 > .el2 {
+    position: relative;
+    width: 100%;
+    height: 32px;
+}
+.hours4 > .el1 > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-shadow: -2px 3px 1px rgba(0, 0, 0, 0.1);
+}
+.hours4 > .el2 > .cloud1 {
+    position: absolute;
+    left: 14px;
+    bottom: 0px;
+    width: 22px;
+    height: 21px;
+    background: #FFFFFF;
+    box-shadow: inset -18px 11px 30px #FFFFFF, inset 8px -15px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 105.5px 105.5px 105.5px 0px;
+    z-index: 4;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.hours4 > .el2 > .cloud2 {
+    position: absolute;
+    left: 30px;
+    bottom: 0;
+    width: 16px;
+    height: 15px;
+    background: #FFFFFF;
+    box-shadow: inset -18px 11px 30px #FFFFFF, inset 8px -15px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 105.5px 105.5px 105.5px 0px;
+    z-index: 3;
+}
+.hours4 > .el2 > .moon {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background: radial-gradient(77.25% 77.25% at 69.89% 22.75%, #FFF72C 0%, #DF7800 100%);
+    border-radius: 50%; 
+    transform: rotate(-23.28deg); 
+    left: 29.5px;
+    top: 5.5px;
+    z-index: 1;
+}
+.hours4 > .el2 > .close {
+    position: relative;
+    width: 14px;
+    height: 14px;
+    top: 0;
+    left: 33px;
+    background-color:#0C3787;
+    border-radius: 50%;
+    transform: rotate(-23.28deg);
+    z-index: 2;
+}
+.hours4 > .el1 > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-shadow: -2px 3px 1px rgba(0, 0, 0, 0.1);
+}
+.hours4 > .el3 > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-shadow: -2px 3px 1px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+.weather-week {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    overflow: hidden;
+    left: 45px;
+    right: 45px;
+    height: 150px;
+    background-color: rgba(0, 16, 38, 0.3);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    top: 670px;
+}
+.forecast {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 260px;
+    height: 40px;
+}
+.forecast > .text {
+    display: inline-block;
+}
+.forecast > .text > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-shadow: -2px 3px 1px rgba(0, 0, 0, 0.1);
+}
+.forecast > .img {
+    display: inline-block;
+}
+.monday {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 260px;
+    height: 40px;
+}
+.monday > .text1 {
+    display: inline-block;
+    margin-left: 0;
+   
+}
+.monday > .forecast > .img > img {
+    width: 50px;
+    height: 50px;
+}
+.monday >.text1 > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-shadow: -2px 3px 1px rgba(0, 0, 0, 0.1);
+}
+.monday > .img {
+    display: inline-block;
+}
+.monday > .text2 {
+    display: inline-block;
+}
+.monday > .text2 > p {
+    display: inline;
+    font-family: "Alegreya Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-shadow: -2px 3px  rgba(0, 0, 0, 0.1);
+}
+.monday > .text2 > .p2 {
+    color: rgba(255, 255, 255, 0.5);
+}
+.tuesday {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 260px;
+    height: 40px;
+}
+.tuesday > .text1 {
+    display: inline-block;
+    margin-left: 0;
+   
+}
+.tuesday >.text1 > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-shadow: -2px 3px 1px rgba(0, 0, 0, 0.1);
+}
+.tuesday > .img {
+    display: inline-block;
+}
+.tuesday > .text2 {
+    display: inline-block;
+}
+.tuesday > .text2 > p {
+    display: inline;
+    font-family: "Alegreya Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-shadow: -2px 3px  rgba(0, 0, 0, 0.1);
+}
+.tuesday > .text2 > .p2 {
+    color: rgba(255, 255, 255, 0.5);
+
+}
